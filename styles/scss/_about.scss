@@ -1,0 +1,62 @@
+.about-page {
+    .ab-section {
+        padding: 6rem 2rem;
+        h5 {
+            color: #b69973;
+            position: relative;
+            &::after {
+                content: '';
+                position: absolute;
+                width: 2.5rem;
+                height: 2px;
+                left: 1.1875rem;
+                margin: 0 auto;
+                bottom: 0;
+                background: #8e7759;
+            }
+        } 
+    }
+
+    .choose-us {
+        background-color: black;
+        min-height: 300px;
+        padding: 5rem 2rem;
+        h3 {
+            position: relative;
+            color: #fff;
+            &::after {
+                content: '';
+                position: absolute;
+                width: 2.5rem;
+                height: 2px;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                margin: 0 auto;
+                bottom: 0;
+                background: #8e7759;
+            }
+        }
+        .choose{
+            span {
+                &.badge {               
+                    background: white;                
+                    color: #b69973;
+                    width: 2.23em;
+                    height: 2.23em;
+                    font-size: 2.8em;
+                    transition: all 1s ease-in;
+                    
+                }
+            }
+            &:hover {
+                span {
+                    &.badge {
+                        background: #b69973;                
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
